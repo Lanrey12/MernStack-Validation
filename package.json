@@ -1,0 +1,35 @@
+{
+  "name": "rolebasedmern",
+  "version": "1.0.0",
+  "description": "A role based validation with mern stack",
+  "main": "index.js",
+  "engine": {
+    "node": "12.13.1",
+    "npm": "6.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "backend": "nodemon index.js"
+  },
+  "author": "alexolajide197@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.4.20",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

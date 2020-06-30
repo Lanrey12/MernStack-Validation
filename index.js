@@ -10,7 +10,7 @@ const cookieParser = require("cookie-parser")
 
 
 const mongoose = require("mongoose");
-const connect = mongoose.connect(config.mongoURI,
+const connect = mongoose.connect("mongodb://localhost:27017/mern",
   {
     useNewUrlParser: true,
     useCreateIndex: true, useFindAndModify: false

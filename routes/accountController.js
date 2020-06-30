@@ -178,7 +178,7 @@ function updateSchema(req, res, next) {
     };
     
     // only admins can update role
-    if (req.user.role === Role.Admin) {
+    if (req.user.role === Role.User) {
         schemaRules.role = Joi.string().valid(Role.Admin, Role.User).empty('');
     }
 
